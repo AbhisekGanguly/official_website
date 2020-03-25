@@ -1,0 +1,635 @@
+body{
+  background-color: #1a1a1a;
+}
+
+.top-navigation-bar{
+  color: grey;
+  width: 100%;
+}
+
+.container-fluid{
+  background-color: #0d0d0d;
+}
+
+.navbar-brand{
+  padding: 10px;
+  padding-left: 160px;
+  font-size: 2.5em;
+  font-family: 'Acme', sans-serif;
+}
+
+.nav-item{
+  padding: 10px;
+  padding-right: 10px;
+}
+
+.profile-section{
+  background-color: #1a1a1a;
+  padding: 12%;
+  width: 100%;
+  font-family: 'PT Serif', serif;
+}
+
+.introduction{
+  color: white;
+}
+
+.name{
+  color: #ff1a1a;
+}
+
+.small-text{
+  color: grey;
+  font-size: 0.8em;
+}
+
+.contact-button{
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.btn-contact{
+  background-color: #1a1a1a;
+  color: #ff1a1a;
+  border-radius: 5px;
+  padding: 15px 32px;
+  border: 2px solid #ff1a1a;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-contact:hover{
+  background-color: #ff3333;
+  color: white;
+  border: 2px solid #ff3333;
+  box-shadow: 5px 12px 16px 5px rgba(255,179,179,0.24), 5px 17px 50px 5px rgba(255, 179, 179, 0.19);
+  text-decoration: none;
+}
+
+.btn-contact2{
+  background-color: #1a1a1a;
+  color: #ff1a1a;
+  border-radius: 5px;
+  padding: 15px 32px;
+  border: 2px solid #ff1a1a;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-contact2:hover{
+  background-color: #ff3333;
+  color: white;
+  border: 2px solid #ff3333;
+  box-shadow: 5px 12px 16px 5px rgba(255,179,179,0.24), 5px 17px 50px 5px rgba(255, 179, 179, 0.19);
+  text-decoration: none;
+}
+
+.about{
+  width: 100%;
+  text-align: left;
+  padding: 7%;
+  background-color: #1a1a1a;
+  cursor: context-menu; 
+}
+
+.about-heading{
+  font-size: 10em;
+  padding-left: 5%;
+  opacity: 0.7;
+  cursor: context-menu;
+}
+
+.about-info{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+  font-size: 1.5em;
+  cursor: context-menu;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  padding: 2%;
+}
+
+.images::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.template{
+  width: 100%;
+}
+
+.skill{
+  width: 100%;
+  text-align: right;
+  padding: 12%;
+  background-color: #1a1a1a;
+  cursor: context-menu;
+}
+
+.skill-heading{
+  font-size: 10em;
+  padding-left: 5%;
+  opacity: 0.7;
+  cursor: context-menu;
+}
+
+.work{
+  width: 100%;
+  text-align: left;
+  padding: 7%;
+  background-color: #1a1a1a;
+  cursor: context-menu;
+}
+
+.work-heading{
+  font-size: 10em;
+  padding-left: 5%;
+  opacity: 0.7;
+  cursor: context-menu;
+}
+
+.contact-heading{
+  font-size: 10em;
+  padding-left: 5%;
+  opacity: 0.7;
+  cursor: context-menu;
+}
+
+.contact{
+  width: 100%;
+  text-align: center;
+  padding: 7%;
+  background-color: #1a1a1a;
+  cursor: context-menu;
+}
+
+.skill-info{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+  font-size: 1.5em;
+  cursor: context-menu;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.animation{
+  transition: 0.4s;
+}
+
+.animation:hover{
+  cursor: context-menu;
+  color: green;
+  font-size: 1.2em;
+}
+
+.animation1{
+  transition: 0.4s;
+}
+
+.animation1:hover{
+  cursor: context-menu;
+  font-size: 1.2em;
+}
+
+.heading-animation{
+  transition: 0.5s;
+}
+
+.heading-animation:hover{
+  text-shadow: 0 0 5px #FFFFFF;
+}
+
+.skill-bar{
+  text-align: left;
+  font-family: 'PT Serif', serif;
+  color: white;
+}
+
+.skill-bar li{
+  margin: 20px, 0;
+  list-style: none;
+  padding: 2%;
+}
+
+.bar{
+  background: #353b48;
+  display: block;
+  height: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+  border: 1px solid rgba(0,0,0,0.3);
+}
+
+.bar span{
+  height: 2px;
+  float: left;
+  background: #2187e7;
+}
+
+.html{
+  width: 95%;
+  animation: html 2s;
+}
+
+.css{
+  width: 90%;
+  animation: css 2s;
+}
+
+
+.javascript{
+  width: 80%;
+  animation: javascript 2s;
+}
+
+.designing{
+  color: #f14e6f;
+}
+
+.django{
+  width: 70%;
+  animation: django 2s;
+}
+
+.work-info{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+  font-size: 1.5em;
+  cursor: context-menu;
+}
+
+.contact-info{
+  color: rgba(255, 255, 255, 0.8);
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15%;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: context-menu;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  padding-top:20px;
+  padding-bottom: 10px;
+}
+
+.footer-link{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer-auth{
+  color: #bfbfbf;
+  text-decoration: none;
+  cursor: context-menu;
+}
+
+.bottom-container{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #333333;
+  cursor: context-menu;
+}
+
+.division{
+  width: 100%;
+  color: white;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  100%{
+    width: 95%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes django {
+  0% {
+    width: 0%;
+  }
+
+  100%{
+    width: 70%;
+  }
+}
+
+ @media only screen and (max-width: 600px){
+  .navbar-brand{
+    font-size: 2.5em;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Acme', sans-serif;
+  }
+
+  .profile-image{
+    display: inline;
+    width: 90%;
+    height: auto;
+    padding-bottom: 10%;
+    padding-right: 2%;
+  }
+
+  .column{
+    width: 100%;
+  }
+
+  .introduction{
+    width: 100%;
+  }
+
+  .profile-section{
+    background-color: #1a1a1a;
+    padding: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .about-heading{
+    font-size: 5em;
+    text-align: center;
+    padding-left: 5%;
+    opacity: 0.7;
+    cursor: context-menu;
+  }
+
+  .skill-heading{
+    font-size: 5em;
+    text-align: center;
+    padding-left: 5%;
+    opacity: 0.7;
+    cursor: context-menu;
+  }
+
+  .about{
+    width: 100%;
+    text-align: center;
+    background-color: #1a1a1a;
+    cursor: context-menu;
+  }
+
+  .about-info{
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 15%;
+    padding: 2%;
+    font-size: 1.2em;
+    cursor: context-menu;
+  }
+
+  .skill{
+    width: 100%;
+    text-align: center;
+    background-color: #1a1a1a;
+    cursor: context-menu;
+  }
+
+  .skill-info{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 15%;
+    padding: 2%;
+    font-size: 1.2em;
+    cursor: context-menu;
+  }
+
+  .work{
+    width: 100%;
+    text-align: center;
+    background-color: #1a1a1a;
+    cursor: context-menu;
+  }
+
+  .work-heading{
+    font-size: 5em;
+    text-align: center;
+    padding-left: 5%;
+    opacity: 0.7;
+    cursor: context-menu;
+  }
+
+  .work-info{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 15%;
+    padding: 2%;
+    font-size: 1.2em;
+    cursor: context-menu;
+  }
+
+  .web-designing{
+    padding: 5%;
+    font-size: 1.2em;
+    color: #6e6e6e;
+    cursor: context-menu;
+  }
+
+  .contact-heading{
+    font-size: 5em;
+    text-align: center;
+    padding-left: 5%;
+    opacity: 0.7;
+    cursor: context-menu;
+  }
+
+  .contact-info{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 15%;
+    padding: 2%;
+    font-size: 1.2em;
+    cursor: context-menu;
+  }
+  .contact-button2{
+    padding: 10%;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 601px){
+ .navbar-brand{
+   font-size: 2.5em;
+   text-align: left;
+   padding-left: 10px;
+   font-family: 'Acme', sans-serif;
+ }
+
+ .profile-image{
+   display: inline;
+   width: 90%;
+   height: auto;
+   padding-bottom: 10%;
+   padding-right: 2%;
+ }
+
+ .animation{
+   transition: 0.4s;
+   font-size: 2em;
+ }
+
+ .animation:hover{
+   cursor: context-menu;
+   color: green;
+   font-size: 2.2em;
+ }
+
+ .animation1{
+   transition: 0.4s;
+   font-size: 2em;
+ }
+
+ .animation1:hover{
+   cursor: context-menu;
+   font-size: 2.2em;
+ }
+
+ .column{
+   width: 100%;
+ }
+
+ .introduction{
+   width: 100%;
+ }
+
+ .profile-section{
+   background-color: #1a1a1a;
+   padding: 10px;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   width: 100%;
+   font-family: 'PT Serif', serif;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+ }
+
+ .about-heading{
+   font-size: 7em;
+   text-align: center;
+   padding-left: 5%;
+   opacity: 0.7;
+ }
+
+ .skill-heading{
+   font-size: 7em;
+   text-align: center;
+   padding-left: 5%;
+   opacity: 0.7;
+ }
+
+ .about{
+   width: 100%;
+   text-align: center;
+   background-color: #1a1a1a;
+ }
+
+ .about-info{
+   color: rgba(255, 255, 255, 0.8);
+   padding-bottom: 15%;
+   padding: 2%;
+   font-size: 2em;
+ }
+
+ .skill{
+   width: 100%;
+   text-align: center;
+   background-color: #1a1a1a;
+ }
+
+ .skill-info{
+   width: 100%;
+   color: rgba(255, 255, 255, 0.8);
+   padding-bottom: 15%;
+   padding: 2%;
+   font-size: 1.5em;
+ }
+
+ .work{
+   width: 100%;
+   text-align: center;
+   background-color: #1a1a1a;
+ }
+
+ .work-heading{
+   font-size: 7em;
+   text-align: center;
+   padding-left: 5%;
+   opacity: 0.7;
+ }
+
+ .work-info{
+   width: 100%;
+   color: rgba(255, 255, 255, 0.8);
+   padding-bottom: 15%;
+   padding: 2%;
+   font-size: 1.5em;
+ }
+
+ .web-designing{
+   padding: 5%;
+   font-size: 1.5em;
+   color: #6e6e6e;
+ }
+
+ .contact-heading{
+   font-size: 5em;
+   text-align: center;
+   padding-left: 5%;
+   opacity: 0.7;
+ }
+
+ .contact-info{
+   width: 100%;
+   color: rgba(255, 255, 255, 0.8);
+   padding-bottom: 15%;
+   padding: 2%;
+   font-size: 1.5em;
+ }
+ .contact-button2{
+   padding: 10%;
+ }
+}
